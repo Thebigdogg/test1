@@ -20,7 +20,7 @@ pragma solidity ^0.4.16;interface tokenRecipient { function receiveApproval(addr
  ) public {
  totalSupply = 50000 * 10 ** uint256(decimals); // Update total supply with the decimal amount
  balanceOf[msg.sender] = totalSupply; // Give the creator all initial tokens
- name = MTACT; // Set the name for display purposes
+ name = MTACT1; // Set the name for display purposes
  symbol = MTACT; // Set the symbol for display purposes
  }/**
  * Internal transfer, only can be called by this contract
